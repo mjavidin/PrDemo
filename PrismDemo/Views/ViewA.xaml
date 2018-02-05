@@ -19,8 +19,8 @@
             <RowDefinition Height="46*"/>
             <RowDefinition Height="181*"/>
         </Grid.RowDefinitions>
-        <TextBlock VerticalAlignment="Center" Text="First Name: "/>
-        <TextBlock VerticalAlignment="Center" Grid.Row="1" Text="Last Name: "/>
+        <TextBlock VerticalAlignment="Center" Text="FirstName: "/>
+        <TextBlock VerticalAlignment="Center" Grid.Row="1" Text="LastName: "/>
         <TextBlock VerticalAlignment="Center" Grid.Row="2" Text="Updated: "/>
         
         <TextBox Grid.Column="1" Margin="5" Text="{Binding FirstName, UpdateSourceTrigger=PropertyChanged}"/>

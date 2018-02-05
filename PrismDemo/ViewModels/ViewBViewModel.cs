@@ -6,7 +6,7 @@ namespace PrismDemo.ViewModels
 {
     public class ViewBViewModel : BindableBase
     {
-        private string _message = "Glareen2";
+        private string _message = "Glareen3";
         public string Message
         {
             get { return _message; }
